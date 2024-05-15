@@ -113,5 +113,6 @@ public class LibretaCalificacion {
                 + "Promedio cualitativo: %s\n",  
                 cadena, obtenerPromedio(), obtenerPromedioCualitativo());
         return cadena;
+        
     }
 }
