@@ -14,10 +14,14 @@ public class Ejecutor2 {
 
     public static void main(String[] args) {
         double[] notas = {10, 9, 8, 10};
-        LibretaCalificacion libreta = new LibretaCalificacion("Maria", notas);
-        libreta.establecerPromedio();
-        libreta.establecerPromedioCualitativo();
-        System.out.printf("%s", libreta);
+        LibretaCalificacion libreta01 = new LibretaCalificacion("Maria", notas);
+        libreta01.establecerPromedio();
+        // Explicar que pasa si comento
+        libreta01.establecerPromedioCualitativo();
+        // Si se comenta la linea 20 el codigo compilara sin ningun problema,
+        // Pero promedioCualitativo no tendra asignado un valor y al ejecutar el
+        // codigo se imprimira con un valor nulo 
+        System.out.printf("%s", libreta01);
 
     }
 
