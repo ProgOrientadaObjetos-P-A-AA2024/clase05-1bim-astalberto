@@ -25,7 +25,7 @@ public class EjemploCuatro {
 
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f - %s - %s\n",
+            System.out.printf("%s - %.2f - Profesior(%s-%s) \n",
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     objetoCalificacion.obtenerProfesor().obtenerNombre(),
