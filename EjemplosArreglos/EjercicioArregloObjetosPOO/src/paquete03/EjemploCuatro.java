@@ -29,8 +29,8 @@ public class EjemploCuatro {
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     objetoCalificacion.obtenerProfesor().obtenerNombre(),
-        // En la linea siguiente estamos llamando un metodo que retorna un objeto
-        // y en el respectivo objeto estamos llamando un metodo perteneciente del objeto retornado
+                    // En la linea siguiente estamos llamando un metodo que retorna un objeto
+                    // y en el respectivo objeto estamos llamando un metodo perteneciente del objeto retornado
                     objetoCalificacion.obtenerProfesor().obtenerTipo()
             );
         }

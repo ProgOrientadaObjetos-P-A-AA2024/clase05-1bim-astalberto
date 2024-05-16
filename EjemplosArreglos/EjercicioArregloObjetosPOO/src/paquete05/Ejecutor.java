@@ -19,11 +19,10 @@ public class Ejecutor {
 
         // Al llamar el metodo establecerProfesor sobrescribe el valor que tiene
         // profesor en el respectivo objeto instanciado 
-        
         c1.establecerProfesor(profesor1);
         c2.establecerProfesor(profesor2);
         c3.establecerProfesor(profesor3);
-        
+
         Calificacion[] lista = {c1, c2, c3};
 
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
